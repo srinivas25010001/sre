@@ -89,8 +89,8 @@ kubectl get pods
 
 ### **6️ Deploy Node.js Backend**
 ```sh
-kubectl apply -f k8s/node-app/node-deployment.yaml
-kubectl apply -f k8s/node-app/node-service.yaml
+kubectl apply -f k8s/node-app/deployment.yaml
+kubectl apply -f k8s/node-app/service.yaml
 ```
 Check the deployment:
 ```sh
@@ -99,8 +99,8 @@ kubectl get pods
 
 ### **7️ Deploy React Frontend**
 ```sh
-kubectl apply -f k8s/react-app/react-deployment.yaml
-kubectl apply -f k8s/react-app/react-service.yaml
+kubectl apply -f k8s/react-app/deployment.yaml
+kubectl apply -f k8s/react-app/service.yaml
 ```
 Check the deployment:
 ```sh
