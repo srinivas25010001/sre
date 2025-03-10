@@ -22,7 +22,6 @@ This project involves deploying a **Node.js backend**, **React frontend**, and *
 │   │   ├── git-repo.yaml
 │── terraform
 │   ├── main.tf
-│   ├── variables.tf
 │── README.md
 ```
 
