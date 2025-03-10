@@ -38,7 +38,7 @@ terraform apply -auto-approve
 ### **2️ Connect to the Private AKS Cluster**
 Once Terraform creates the AKS cluster, retrieve the cluster credentials:
 ```sh
-az aks get-credentials --resource-group sre-resourcegp --name sre-aks --admin
+az aks get-credentials --resource-group sre-resourcegp --name sre-aks
 ```
 Verify connection:
 ```sh
