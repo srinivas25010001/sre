@@ -10,11 +10,11 @@ This project involves deploying a **Node.js backend**, **React frontend**, and *
 │   │   ├── mysql-service.yaml
 │   │   ├── mysql-sealed-secret.yaml
 │   ├── node-app
-│   │   ├── node-deployment.yaml
-│   │   ├── node-service.yaml
+│   │   ├── deployment.yaml
+│   │   ├── service.yaml
 │   ├── react-app
-│   │   ├── react-deployment.yaml
-│   │   ├── react-service.yaml
+│   │   ├── deployment.yaml
+│   │   ├── service.yaml
 │   ├── nginx
 │   │   ├── nginx-deployment.yaml
 │   │   ├── nginx-service.yaml
