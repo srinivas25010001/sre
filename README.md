@@ -127,7 +127,8 @@ kubectl get all
 ## **Architecture diagram**
 ![Architecture](https://github.com/user-attachments/assets/8540d3ac-a4cc-4c4f-9525-8e596b4df621)
 
-```
+---
+
 ## **Testing and Validation Instructions**
 
 ### **1️ Verify MySQL Connection**
@@ -165,3 +166,4 @@ Find the **Nginx service** external/internal IP and access it in the browser:
 ```
 http://<NGINX_SERVICE_IP>
 ```
+---
