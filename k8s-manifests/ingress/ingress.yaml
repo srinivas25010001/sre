@@ -7,7 +7,7 @@ metadata:
     kubernetes.io/ingress.class: azure/application-gateway
 spec:
   rules:
-  - host: myapp.example.com
+  - host: sre.com
     http:
       paths:
       - path: /
